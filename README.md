@@ -1,6 +1,8 @@
 # ProjectManagementTool
 Full-stack Go+TS tool for managing tasks and projects
 
+!!! You should see the list of projects straight away but to see tasks, you need to press on the project name to see the tasks in the project.
+
 Next steps that I'd like to work on: 
 -  test coverage and 
 - ui optimization (there are some repetative elements that I would prefer to optimise if there is more time)
