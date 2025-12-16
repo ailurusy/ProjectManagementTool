@@ -1,0 +1,153 @@
+h1 {
+    font-weight: bold;
+    color: rgb(6, 0, 75);
+    font-family: "Playfair Display", serif;
+    padding: 40px 0 0 0;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    padding: 10px 0 10px 0;
+    color: rgb(6, 0, 75);
+}
+
+.page-container {
+    width: 70%;
+    margin: auto;
+}
+
+.content-container {
+    background-color: rgb(227, 237, 247);
+    border-radius: 20px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.manager-tracker-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0px 10px;
+    background-color: rgb(227, 237,247);
+    font-family: "Playfair Display", serif;
+    text-align: center;
+}
+
+tr{
+    background-color: white;
+    color: rgb(12, 98, 167);
+}
+
+.outlined-button {
+    padding: 0 2px 0 2px;
+}
+
+.add-button {
+    display: flex;
+    justify-content: flex-end;
+    margin: auto;
+}
+
+.date-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-checked {
+    text-decoration: line-through;
+    color: lightgray;
+}
+
+select {
+    border-width: thin;
+    border-color: lightgray;
+    border-radius: 5px;
+    margin: 5px 0;
+    font-family: "Playfair Display", serif;
+    width: 100%;
+}
+
+.project-table {
+    width: 100%;
+}
+
+.project-table tr,
+.project-table td {
+
+    text-align: center;
+}
+
+tr:hover{
+    background-color: rgb(243, 245, 247);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+}
+
+td:first-child {
+    border-left-style: solid;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+td:last-child {
+    border-right-style: solid;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+p {
+    color: rgb(12, 98, 167);
+    font-family: "Playfair Display", serif;
+}
+
+h4 {
+    font-size: 16px;
+    color: rgb(6, 0, 75);
+    font-family: "Playfair Display", serif;
+}
+
+label{font-family: "Playfair Display", serif;}
+
+.req{
+    color: red;
+    padding: 3px;
+}
+
+.input-form {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+.date-picker-container {
+    display: flex;
+}
+
+.date-picker {
+    margin: 0 10px 0 0
+}
+/* background: */
+progress::-webkit-progress-bar {
+    background-color: white;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+progress::-webkit-progress-value {background-color: rgb(25, 194, 111) !important;}
+progress::-moz-progress-bar {background-color: rgb(25, 194, 111) !important;}
+
+
+.project-progress-bar progress::-webkit-progress-bar {
+    background-color: rgb(227, 237, 247) !important;
+}
+
+.project-progress-bar progress::-moz-progress-bar {
+    background-color: darkgray !important;
+}
