@@ -1,6 +1,8 @@
 # ProjectManagementTool
 Full-stack Go+TS tool for managing tasks and projects
 
+Next steps that I'd like to work on: test coverage and ui optimization (there are some repetative elements that I would prefer to optimise if there is more time)
+
 Prerequisites: 
 -------------------
 #install go 
